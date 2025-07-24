@@ -1,0 +1,51 @@
+
+
+body {
+  background-color: #1e1e2f;
+  color: #e0e0e0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.employee-management h2,
+.card-title {
+  color: #61dafb;
+}
+
+.employee-item {
+  background-color: #2c2f48;
+  transition: transform 0.2s ease-in-out;
+}
+/* .text-muted {
+  color: #e0e0e0;
+} */
+.employee-item:hover {
+  transform: scale(1.02);
+}
+
+.card , .text-muted {
+  background-color: #25293c;
+  border: none;
+  color: #e0e0e0;
+  border-radius: 1rem;
+}
+
+input.form-control {
+  background-color: #3a3f5a;
+  border: none;
+  color: #e0e0e0;
+}
+
+input.form-control::placeholder {
+  color: #e0e0e0;
+}
+
+.btn-primary,
+.btn-success {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.btn-outline-secondary {
+  color: #fff;
+  border-color: #6c757d;
+}
