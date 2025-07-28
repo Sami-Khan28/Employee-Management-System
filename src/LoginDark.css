@@ -1,4 +1,4 @@
-/* LoginDark.css */
+
 
 .login-dark {
   background: linear-gradient(to right, #141e30, #243b55);
@@ -6,16 +6,57 @@
   font-family: "Segoe UI", sans-serif;
 }
 
-/* Fade-in animation */
+
 .fade-in {
   animation: fadeIn 1s ease-in-out;
 }
 
-/* Slide-in card animation */
+
 .animate-slide {
   animation: slideIn 0.8s ease forwards;
   opacity: 0;
   transform: translateY(20px);
+}
+.login-container {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 400px;
+  transition: all 0.3s ease-in-out;
+}
+
+.glass-card:hover {
+  transform: scale(1.01);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.form-floating > label {
+  color: #bbb;
+}
+.login-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #0dcaf0;
+  box-shadow: 0 0 10px rgba(13, 202, 240, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.login-avatar:hover {
+  transform: scale(1.05);
+}
+.glass-card h5 {
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 @keyframes fadeIn {
